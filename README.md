@@ -3,14 +3,14 @@
 ### What is LangGraph?
 [Langgraph](https://langchain-ai.github.io/langgraph/) is a library on top of [langchain](https://www.langchain.com/langchain) for building agents & agent runtime.
 What is an Agent?
-	A system powered by LM that decides what action to take.
+	A system powered by LM which decides what action to take.
 
 ### What is an Agent runtime?
-This runtime runs agent in a loop, calls the agent, decides the action to take, takes the action & records the observation & passes it back & starts to loop all over again & continues going through that loop until it decides that its finished.
+This runtime runs an agent in a loop, calls the agent, decides the action to take, takes the action & records the observation & passes it back & starts to loop all over again & continues going through that loop until it decides that it's finished.
 With Langchain, it is now easier to customize agents with Langchain expression language.
 
 LangGraph is another way to create this runtime.
-With LangGraph, goal is to now also easily customize the agent runtime. Earlier, the runtime was agent executor class, which was basically something that run in loop, called tools in specific way, handled errors.
+With LangGraph, the goal is to now also easily customize the agent runtime. Earlier, the runtime was agent executor class, which was basically something that ran in a loop, called tools in a specific way and handled errors.
 
 LangGraph is another way to create this runtime to provide more flexibility & dynamically & we can add cycles here to be able to run steps with agent in a loop.
 It’s added 2 agent runtimes in LangGraph –
@@ -42,6 +42,7 @@ Types of edges –
 * Notebook - Multi-agent supervisor - https://github.com/langchain-ai/langgraph/blob/main/docs/docs/tutorials/multi_agent/agent_supervisor.ipynb
 * LangGraph concept glossary - https://langchain-ai.github.io/langgraph/concepts/low_level/
 * LangGraph conceptual guide - https://langchain-ai.github.io/langgraph/concepts/#conceptual-guide
+* Components of LangGraph - https://blog.langchain.dev/langgraph/
 * Tutorials by Langchain academy -
   - Introduction to LangGraph - https://youtu.be/29XE10U6ooc?si=dOPeMg37jgn8YW2V
   - LangGraph Introduction - https://www.youtube.com/watch?v=5h-JBkySK34&t=103s
