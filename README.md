@@ -57,5 +57,6 @@ A graph's latest state can be accessed for a `thread_id` using the latest checkp
   - Introduction to LangGraph - https://youtu.be/29XE10U6ooc?si=dOPeMg37jgn8YW2V
   - LangGraph Introduction - https://www.youtube.com/watch?v=5h-JBkySK34&t=103s
   - LangGraph tutorial playlist - https://www.youtube.com/watch?v=5h-JBkySK34&list=PLfaIDFEXuae16n2TWUkKq5PgJ0w6Pkwtg
-* Persistence - https://docs.langchain.com/oss/python/langgraph/persistence 
+* Persistence - https://docs.langchain.com/oss/python/langgraph/persistence
+* Sub-graph (using graph as a node) - https://docs.langchain.com/oss/python/langgraph/use-subgraphs
 
