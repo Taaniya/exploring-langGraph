@@ -63,15 +63,15 @@ Types of edges –
 * Persistence - https://docs.langchain.com/oss/python/langgraph/persistence
 * Sub-graph (using graph as a node) - https://docs.langchain.com/oss/python/langgraph/use-subgraphs
 * Short-term and long-term memory - https://docs.langchain.com/oss/python/langgraph/memory
+    *  Long-term memory in LangGraph using Redis (Tutorial) - https://youtu.be/fsENEq4F55Q?si=1fy5clnDmMrYh-hl 
 * Semantic memory - https://docs.langchain.com/oss/python/langgraph/memory#semantic-memory
 * **Caching in LangGraph -**
     * Notebook - Using LG with InMemory node-level caching - https://www.analyticsvidhya.com/blog/2025/10/caching-in-langgraph/
     * Node-level caching - Docs - https://docs.langchain.com/oss/python/langgraph/graph-api#node-caching
-    * Langchain and redis integration for Caching (standard cache & semantic cache) - https://youtu.be/LRswXEc5chE?si=nJtLKLA1Yzu5q1B-
+    * Langchain and Redis integration for Caching (standard cache & semantic cache) - https://youtu.be/LRswXEc5chE?si=nJtLKLA1Yzu5q1B-
     * Redis integration with LangChain
         * Documentation - https://docs.langchain.com/oss/python/integrations/providers/redis
-        * Tutorial (Redis) - https://youtu.be/fsENEq4F55Q?si=1fy5clnDmMrYh-hl
-* What is semantic cache (redis)
-   * The user query goes through an embedding model. It's embeddings are compared to other embeddings in the vector store. If the embeddings of this query is close enough to another embedding beyond a similarity score threshold, the response is directly returned from cache.
+* What is semantic cache (Redis)
+   * The user query goes through an embedding model. Its embeddings are compared to other embeddings in the vector store. If the embeddings of this query are close enough to another embedding beyond a similarity score threshold, the response is directly returned from cache.
    * Source - https://youtu.be/LRswXEc5chE?si=nJtLKLA1Yzu5q1B-
 
