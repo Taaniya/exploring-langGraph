@@ -45,7 +45,7 @@ Types of edges –
 * A graph's latest state can be accessed for a `thread_id` using the latest checkpoint associated with it. Similarly, we can also retrieve the entire state history for a `thread_id`
 * Use case -
     * Persistence enables capability of memory in agents built with LangGraph where can agent can resume from previous conversation maintained in memory. 	
-
+* LangGraph provides checkpointer implementations including using SQLite and Postgres - https://docs.langchain.com/oss/python/langgraph/persistence#checkpointer-libraries
 
 ### References -
 * Video tutorial – Agent executor - https://www.youtube.com/watch?v=9dXp5q3OFdQ&t=256s
@@ -64,7 +64,7 @@ Types of edges –
 * Sub-graph (using graph as a node) - https://docs.langchain.com/oss/python/langgraph/use-subgraphs
 * Short-term and long-term memory - https://docs.langchain.com/oss/python/langgraph/memory
     *  Long-term memory in LangGraph using Redis (Tutorial) - https://youtu.be/fsENEq4F55Q?si=1fy5clnDmMrYh-hl
-    *  Add memory using checkpointer with PostGres (for production use case) - https://docs.langchain.com/oss/python/langgraph/add-memory#example-using-postgres-checkpointer
+    *  Add memory using checkpointer with Postgres (for production use case) - https://docs.langchain.com/oss/python/langgraph/add-memory#example-using-postgres-checkpointer
 * Semantic memory - https://docs.langchain.com/oss/python/langgraph/memory#semantic-memory
 * **Caching in LangGraph -**
     * Notebook - Using LG with InMemory node-level caching - https://www.analyticsvidhya.com/blog/2025/10/caching-in-langgraph/
