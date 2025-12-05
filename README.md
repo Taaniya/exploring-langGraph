@@ -63,4 +63,12 @@ Types of edges –
 * Persistence - https://docs.langchain.com/oss/python/langgraph/persistence
 * Sub-graph (using graph as a node) - https://docs.langchain.com/oss/python/langgraph/use-subgraphs
 * Short-term and long-term memory - https://docs.langchain.com/oss/python/langgraph/memory
+* Semantic memory - https://docs.langchain.com/oss/python/langgraph/memory#semantic-memory
+* **Caching in LangGraph -**
+    * Notebook - Using LG with InMemory node-level caching - https://www.analyticsvidhya.com/blog/2025/10/caching-in-langgraph/
+    * Node-level caching - Docs - https://docs.langchain.com/oss/python/langgraph/graph-api#node-caching
+    * Langchain and redist integration for Caching (standard cache & semantic cache) - https://youtu.be/LRswXEc5chE?si=nJtLKLA1Yzu5q1B-
+* What is semantic cache (redis)
+   * The user query goes through an embedding model. It's embeddings are compared to other embeddings in the vector store. If the embeddings of this query is close enough to another embedding beyond a similarity score threshold, the response is directly returned from cache.
+   * Source - https://youtu.be/LRswXEc5chE?si=nJtLKLA1Yzu5q1B-
 
