@@ -37,12 +37,14 @@ Types of edges –
 
 
 ### Persistence (LangGraph v1.0)
-LangGraph supports persistence through built-in checkpointers. All checkpoints of a graph during its lifetime are associated with a `thread`. This thread can be accessed after graph execution finishes.
-
+* LangGraph supports persistence through built-in checkpointers.
+* A checkpointer saves the graph's state at each iteration enabling us to resume from a graph's state if required.
+* All checkpoints of a graph during its lifetime are associated with a `thread`. This thread can be accessed after graph execution finishes.
 * `thread` - A unique thread id is provided to all the checkpoints saved during graph execution. This thread_is provided as part of config while invoking the graph.(src - [Threads](https://docs.langchain.com/oss/python/langgraph/persistence#threads))
 * `checkpoint` - A snapshot of the state of graph at each super-step. The checkpoints are persisted and are used to restore state of a thread at a later time. (src - [Checkpoints](https://docs.langchain.com/oss/python/langgraph/persistence#checkpoints))
-
-A graph's latest state can be accessed for a `thread_id` using the latest checkpoint associated with it. Similarly, we can also retrieve the entire state history for a `thread_id`
+* A graph's latest state can be accessed for a `thread_id` using the latest checkpoint associated with it. Similarly, we can also retrieve the entire state history for a `thread_id`
+* Use case -
+    * Persistence enables capability of memory in agents built with LangGraph where can agent can resume from previous conversation maintained in memory. 	
 
 
 ### References -
@@ -57,6 +59,7 @@ A graph's latest state can be accessed for a `thread_id` using the latest checkp
   - Introduction to LangGraph - https://youtu.be/29XE10U6ooc?si=dOPeMg37jgn8YW2V
   - LangGraph Introduction - https://www.youtube.com/watch?v=5h-JBkySK34&t=103s
   - LangGraph tutorial playlist - https://www.youtube.com/watch?v=5h-JBkySK34&list=PLfaIDFEXuae16n2TWUkKq5PgJ0w6Pkwtg
+  - LangGraph - Persistence - https://youtu.be/YE6A5d8kNp4?si=w_OEMdbdsr41gFg7
 * Persistence - https://docs.langchain.com/oss/python/langgraph/persistence
 * Sub-graph (using graph as a node) - https://docs.langchain.com/oss/python/langgraph/use-subgraphs
 
