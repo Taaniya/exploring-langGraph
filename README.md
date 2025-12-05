@@ -63,7 +63,8 @@ Types of edges –
 * Persistence - https://docs.langchain.com/oss/python/langgraph/persistence
 * Sub-graph (using graph as a node) - https://docs.langchain.com/oss/python/langgraph/use-subgraphs
 * Short-term and long-term memory - https://docs.langchain.com/oss/python/langgraph/memory
-    *  Long-term memory in LangGraph using Redis (Tutorial) - https://youtu.be/fsENEq4F55Q?si=1fy5clnDmMrYh-hl 
+    *  Long-term memory in LangGraph using Redis (Tutorial) - https://youtu.be/fsENEq4F55Q?si=1fy5clnDmMrYh-hl
+    *  Add memory using checkpointer with PostGres (for production use case) - https://docs.langchain.com/oss/python/langgraph/add-memory#example-using-postgres-checkpointer
 * Semantic memory - https://docs.langchain.com/oss/python/langgraph/memory#semantic-memory
 * **Caching in LangGraph -**
     * Notebook - Using LG with InMemory node-level caching - https://www.analyticsvidhya.com/blog/2025/10/caching-in-langgraph/
