@@ -62,4 +62,5 @@ Types of edges –
   - LangGraph - Persistence - https://youtu.be/YE6A5d8kNp4?si=w_OEMdbdsr41gFg7
 * Persistence - https://docs.langchain.com/oss/python/langgraph/persistence
 * Sub-graph (using graph as a node) - https://docs.langchain.com/oss/python/langgraph/use-subgraphs
+* Short-term and long-term memory - https://docs.langchain.com/oss/python/langgraph/memory
 
